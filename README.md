@@ -1,4 +1,4 @@
-# ts-config-randomizer
+# config-randomizer
 Config randomizer used to generate configuration from a set of input parameters.
 
 Recurses through your input configuration object, and checks for two scenarios:

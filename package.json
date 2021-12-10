@@ -1,10 +1,10 @@
 {
-  "name": "ts-config-randomizer",
+  "name": "config-randomizer",
   "version": "1.0.0",
   "description": "Config randomizer for numeric value usage",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "repository": "https://github.com/jpasquers/ts-config-randomizer.git",
+  "repository": "https://github.com/jpasquers/config-randomizer.git",
   "author": "pasquej@gmail.com",
   "license": "MIT",
   "scripts": {
