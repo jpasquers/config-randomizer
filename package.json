@@ -1,0 +1,12 @@
+{
+  "name": "ts-config-randomizer",
+  "version": "1.0.0",
+  "description": "Config randomizer for numeric value usage",
+  "main": "index.js",
+  "repository": "https://github.com/jpasquers/ts-config-randomizer.git",
+  "author": "pasquej@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.3"
+  }
+}
