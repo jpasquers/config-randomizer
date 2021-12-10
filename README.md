@@ -3,7 +3,7 @@ Config randomizer used to generate configuration from a set of input parameters.
 
 Recurses through your input configuration object, and for each sub object it finds that matches the _RandomizableRange_ interface, it calculates a concrete value within the _minValIncl_ and _maxValIncl_ range according to the weight function. 
 
-The values chosen from are found by starting at the _minValIncl_, and stepping by the _stepper_ amount until the _maxValIncl_ is reached
+The potential values to chose from are found by starting at the _minValIncl_, and stepping by the _stepper_ amount until the _maxValIncl_ is reached
 
 __Note__: if the _maxValIncl_ is not an even amount of steps from the _minValIncl_ (NOT recommended), the last value before going over the max value, as well as the max value, will both be included. For example:
 
