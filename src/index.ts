@@ -1,4 +1,4 @@
-import { RandomizableRange, StrictMappedSubType, RandomizableCount, CountDeRandomized, RangeDeRandomized, FullDeRandomized } from "./model";
+import { RandomizableRange, RandomizableCount, CountDeRandomized, RangeDeRandomized, FullDeRandomized } from "./model";
 import { recurse } from "./recurse";
 import { chooseValue, isRandomizableCount, isRandomizableRange } from "./weight_calc";
 
@@ -9,7 +9,7 @@ export {RandomizableRange, WeightFn } from "./model"
  * Only removes the randomizedCounts. The assumption is that further derandomizers will handle any
  * Randomization within the itemDetails.
  */
-export const deRandomizeCount = <SrcType> (inObj: SrcType): 
+const deRandomizeCount = <SrcType> (inObj: SrcType): 
         CountDeRandomized<SrcType> => {
     return recurse<SrcType,CountDeRandomized<SrcType>, RandomizableCount<unknown>>(
         inObj,
@@ -25,7 +25,7 @@ export const deRandomizeCount = <SrcType> (inObj: SrcType):
     )
 }
 
-export const deRandomizeRange = <SrcType> (inObj: SrcType): 
+const deRandomizeRange = <SrcType> (inObj: SrcType): 
         RangeDeRandomized<SrcType> => {
     return recurse<SrcType,RangeDeRandomized<SrcType>, RandomizableRange>(
         inObj,
