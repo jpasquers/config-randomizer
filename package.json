@@ -2,11 +2,20 @@
   "name": "ts-config-randomizer",
   "version": "1.0.0",
   "description": "Config randomizer for numeric value usage",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": "https://github.com/jpasquers/ts-config-randomizer.git",
   "author": "pasquej@gmail.com",
   "license": "MIT",
+  "scripts": {
+    "build": "yarn clean && tsc -declaration",
+    "clean": "rm -rf ./lib/",
+    "test": "jest --config jestconfig.json"
+  },
   "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.4",
+    "ts-jest": "^27.1.1",
     "typescript": "^4.5.3"
   }
 }
