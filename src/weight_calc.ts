@@ -1,4 +1,4 @@
-import { RandomizableRange, WeightFn } from "./model";
+import { RandomizableCount, RandomizableRange, WeightFn } from "./model";
 
 
 
@@ -8,6 +8,12 @@ export const isRandomizableRange = (val: unknown): val is RandomizableRange => {
         "minValIncl" in val &&
         "stepper" in val &&
         "weightFnKey" in val;
+}
+
+export const isRandomizableCount = (val: unknown): val is RandomizableCount<unknown> => {
+    return typeof val === "object" && !(!val) && 
+        "count" in val && 
+        "itemDetails" in val;
 }
 
 export const Even: WeightFn = (x:number) => 10;
