@@ -1,1 +1,0 @@
-export declare const recurse: <InType, OutType, TypeForCustomBehavior>(inObj: InType, customBehaviorTypeChecker: (k: unknown) => k is TypeForCustomBehavior, customMap: (k: TypeForCustomBehavior) => any) => OutType;
