@@ -41,9 +41,9 @@ Could produce the following when run through _deRandomize_.
 {
     a: {
         b: 2
-    },
-    c: {
-        d: 0.1
+        c: {
+            d: 0.1
+        }
     }
 }
 ```
