@@ -1,6 +1,6 @@
 {
   "name": "config-randomizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Config randomizer for numeric value usage",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
