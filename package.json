@@ -1,12 +1,16 @@
 {
   "name": "config-randomizer",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Config randomizer for numeric value usage",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": "https://github.com/jpasquers/config-randomizer.git",
   "author": "pasquej@gmail.com",
   "license": "MIT",
+  "files": [
+    "lib/index.d.ts",
+    "lib/index.js"
+  ],
   "scripts": {
     "build": "yarn clean && tsc --declaration",
     "clean": "rm -rf ./lib/",
