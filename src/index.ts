@@ -2,8 +2,7 @@ import { RandomizableRange, RandomizableCount, CountDeRandomized, RangeDeRandomi
 import { recurse } from "./recurse";
 import { chooseValue, isRandomizableCount, isRandomizableRange } from "./weight_calc";
 
-export {RandomizableRange, WeightFn } from "./model"
-
+export {RandomizableRange, WeightFn, FullDeRandomized, RandomizableCount } from "./model"
 /**
  * 
  * Only removes the randomizedCounts. The assumption is that further derandomizers will handle any
