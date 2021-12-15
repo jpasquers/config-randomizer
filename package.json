@@ -1,9 +1,9 @@
 {
   "name": "config-randomizer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Config randomizer for numeric value usage",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/index",
+  "types": "lib/index",
   "repository": "https://github.com/jpasquers/config-randomizer.git",
   "author": "pasquej@gmail.com",
   "license": "MIT",
