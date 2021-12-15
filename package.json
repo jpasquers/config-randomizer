@@ -1,6 +1,6 @@
 {
   "name": "config-randomizer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Config randomizer for numeric value usage",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -8,7 +8,7 @@
   "author": "pasquej@gmail.com",
   "license": "MIT",
   "scripts": {
-    "build": "yarn clean && tsc -declaration",
+    "build": "yarn clean && tsc --declaration",
     "clean": "rm -rf ./lib/",
     "test": "jest --config jestconfig.json"
   },
